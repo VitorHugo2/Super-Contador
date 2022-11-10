@@ -1,1 +1,1 @@
-#Algoritimo simples que percorre de um numero x a um numero y, pra cada numero percorrido um emoji surge acompanhado com o indice!  
+# Algoritimo simples que percorre de um numero x a um numero y, pra cada numero percorrido um emoji surge acompanhado com o indice!  
