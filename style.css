@@ -1,8 +1,18 @@
 body{
     background: rgb(72, 197, 255);
+    text-align: center;
+}
+header h1{
+    color: white;
+    text-shadow: 1px 1px 5px black;
 }
 section{
+    text-align: left;
+    box-shadow: 2px 2px 10px black;
+    padding: 15px;
     background: white;
     width: 50%;
     margin: auto;
+    border-radius: 10px;
 }
+

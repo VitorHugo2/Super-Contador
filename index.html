@@ -10,17 +10,35 @@
 <body>
     
     <header>
-
+        <h1>Super Contador</h1>
     </header>
 
     <section>
 
         <div>
-            
+            <p>
+                <label for="inicio">Inicio:</label>
+                <input placeholder="Ex:0" type="number" name="inicio" id="inicio">
+                
+            </p>
+            <p>
+                <label for="fim">Fim:</label>
+                <input placeholder="Ex:10" type="number" name="fim" id="fim">
+                
+            </p>
+            <p>
+                <label for="passo">Passo:</label>
+                <input placeholder="Ex:1" type="number" name="passo" id="passo">
+                
+            </p>
+            <input type="button" value="Contar" id="contar" onclick="contar()">
         </div>
         
+        
         <div id="res">
-
+            <p id="resposta">
+                Preencha os campos acima para ver o resultado!
+            </p>
         </div>
 
     </section>
